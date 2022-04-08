@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 320933892}
   - component: {fileID: 320933891}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: spawn_indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
-  minPlayers: 2
+  minPlayers: 1
   menuScene: Assets/Scenes/Scene_Lobby.unity
   roomPlayerPrefab: {fileID: 5404391349633520759, guid: d4a5b628ccf5455479650307836bcc43,
     type: 3}

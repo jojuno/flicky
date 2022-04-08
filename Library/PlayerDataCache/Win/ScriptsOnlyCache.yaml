@@ -17,6 +17,13 @@ ScriptsOnlyBuild:
     - PlayText
     - ReplayButton
     - StatusText
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineCollider
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTransposer
+    - Cinemachine.CinemachineVirtualCamera
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     Mirror.dll:
@@ -119,9 +126,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
+      Script: {instanceID: 12884}
+    - Class: 114
+      Script: {instanceID: 13052}
+    - Class: 114
       Script: {instanceID: 13102}
     - Class: 114
       Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 13460}
     - Class: 114
       Script: {instanceID: 13492}
     - Class: 114
@@ -130,6 +143,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13676}
     - Class: 114
       Script: {instanceID: 13712}
+    - Class: 114
+      Script: {instanceID: 13774}
+    - Class: 114
+      Script: {instanceID: 13942}
     - Class: 114
       Script: {instanceID: 13992}
     - Class: 114
@@ -145,7 +162,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14882}
     - Class: 114
-      Script: {instanceID: 15848}
+      Script: {instanceID: 16026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -233,6 +250,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14300}
     - Class: 114
       Script: {instanceID: 14528}
+    - Class: 114
+      Script: {instanceID: 14818}
     - Class: 114
       Script: {instanceID: 14866}
     - Class: 114
